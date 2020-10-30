@@ -12,19 +12,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Crud.MahasiswaDeleteActivity"></activity>
-        <activity android:name=".Crud.MahasiswaUpdateActivity" />
-        <activity android:name=".Crud.MahasiswaAddActivity" />
-        <activity android:name=".Crud.MahasiswaGetAllActivity" />
-        <activity
-            android:name=".Crud.MainMhsActivity"
-            android:label="Menu CRUD Mahasiswa">
+        <activity android:name=".Crud.MainDsnActivity"></activity>
+        <activity android:name=".Crud.DosenUpdateActivity" />
+        <activity android:name=".Crud.DosenGetAllActivity" />
+        <activity android:name=".Crud.DosenDeleteActivity" />
+        <activity android:name=".Crud.DosenAddActivity" />
+        <activity android:name=".Pertemuan6.MainPageActivity" />
+        <activity android:name=".Pertemuan6.SplashActivity" />
+        <activity android:name=".Pertemuan6.PrefActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Crud.MahasiswaDeleteActivity" />
+        <activity android:name=".Crud.MahasiswaUpdateActivity" />
+        <activity android:name=".Crud.MahasiswaAddActivity" />
+        <activity android:name=".Crud.MahasiswaGetAllActivity" />
+        <activity
+            android:name=".Crud.MainMhsActivity"
+            android:label="Menu CRUD Mahasiswa" />
         <activity android:name=".Pertemuan2.CardViewActivity" />
         <activity android:name=".Pertemuan2.RecyclerActivity" />
         <activity android:name=".Pertemuan2.ListActivity" />

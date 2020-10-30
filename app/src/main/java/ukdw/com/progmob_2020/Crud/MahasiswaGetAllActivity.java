@@ -18,7 +18,6 @@ import ukdw.com.progmob_2020.Network.RetrofitClientInstance;
 import ukdw.com.progmob_2020.R;
 
 public class MahasiswaGetAllActivity extends AppCompatActivity {
-
     RecyclerView rvMhs;
     MahasiswaCRUDRecyclerAdapter mhsAdapter;
     ProgressDialog pd;

@@ -42,7 +42,7 @@ public class MahasiswaDeleteActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<DefaultResult> call, Response<DefaultResult> response) {
                         pd.dismiss();
-                        Toast.makeText(MahasiswaDeleteActivity.this, "Data Berhasil Dihapus", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MahasiswaDeleteActivity.this, "data Berhasil Dihapus", Toast.LENGTH_LONG).show();
                     }
 
                     @Override

@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -50,7 +49,7 @@ public class MahasiswaAddActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<DefaultResult> call, Response<DefaultResult> response) {
                         pd.dismiss();
-                        Toast.makeText(MahasiswaAddActivity.this, "Data Berhasil Disimpan", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MahasiswaAddActivity.this, "data Berhasil Disimpan", Toast.LENGTH_LONG).show();
                     }
 
                     @Override
